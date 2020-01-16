@@ -1,1 +1,1 @@
-puedes ver el proyecto aqui: https://app.netlify.com/sites/inspiring-lichterman-893f6a/overview
+puedes ver el proyecto aqui: https://inspiring-lichterman-893f6a.netlify.com/
