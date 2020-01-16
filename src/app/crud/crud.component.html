@@ -1,0 +1,24 @@
+
+
+<label for="nombre">Nombre:</label><br>
+<input type="text" [(ngModel)]="datos.nombre"><br>
+
+<label for="apellido">Apellido:</label><br>
+<input type="text"  [(ngModel)]="datos.apellido"><br>
+
+<label for="domicilio">Domicilio:</label><br>
+<input type="text" [(ngModel)]="datos.domicilio"><br>
+
+<label for="nacionalidad">Nacionalidad</label><br>
+<input type="text" [(ngModel)]="datos.nacionalidad"><br><br>
+
+<input type="submit" name="enviar" (click)="guardar()">
+
+
+
+
+
+<h1>Datos de personas</h1>
+<div *ngFor="let dat of datosArrays;let indice=index">       
+<h2>{{indice}}-{{dat.nombre}}-{{dat.apellido}}-{{dat.domicilio}}-{{dat.nacionalidad}}</h2><button (click)="eliminar(indice)">Eliminar</button>
+</div>
